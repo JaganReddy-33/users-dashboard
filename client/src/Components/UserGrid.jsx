@@ -1,5 +1,5 @@
-import Card from "../Components/Card";
-import Loader from "../Components/Loader";
+import Card from "./Card";
+import Loader from "./Loader";
 
 function UserGrid({ loading, users, error }) {
   if (loading) {
