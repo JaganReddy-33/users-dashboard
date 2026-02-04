@@ -23,7 +23,7 @@ function App() {
       })
       .catch((err) => {
         console.error("Error fetching users:", err);
-        setLoading(false)
+        setLoading(false)``
         setError("Failed to load users. Please try again.");
       });
   }, []);
